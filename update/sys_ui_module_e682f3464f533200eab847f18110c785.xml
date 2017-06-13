@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Stocks">6e82f3464f533200eab847f18110c782</application>
+        <filter/>
+        <name>Stocks Table</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_22597_stocks.user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-06-13 18:14:16</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e682f3464f533200eab847f18110c785</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Stocks Table</sys_name>
+        <sys_package display_value="Stocks" source="x_22597_stocks">d58237064f533200eab847f18110c7de</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Stocks">d58237064f533200eab847f18110c7de</sys_scope>
+        <sys_update_name>sys_ui_module_e682f3464f533200eab847f18110c785</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-06-13 18:14:16</sys_updated_on>
+        <table>x_22597_stocks_table</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>
