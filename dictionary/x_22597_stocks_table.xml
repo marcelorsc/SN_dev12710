@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Stocks Table" max_length="40" name="x_22597_stocks_table" type="collection">
+        <element label="Close" max_length="15" name="close" type="decimal"/>
+        <element label="Date" max_length="40" name="date" type="glide_date"/>
+        <element label="High" max_length="15" name="high" type="decimal"/>
+        <element label="Low" max_length="15" name="low" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="name" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Open" max_length="15" name="open" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Ticker" max_length="40" name="ticker" type="string"/>
+        <element label="Volume" max_length="40" name="volume" type="integer"/>
     </element>
 </database>
